@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom - Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <div id="bemvindo"> Bem-vindo </div>
+                <div id="sair">
+                    <button type="button" class="btn btn-danger" onclick="logout()">Sair</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Seu email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
+                        ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="login()">Entrar</button>
+                <button type="submit" class="btn btn-primary" onclick="resetpassword()"> Esqueceu sua senha?</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Alexandre da Silva Tavares. 2020
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

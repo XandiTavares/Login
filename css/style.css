@@ -1,0 +1,53 @@
+/* importar fonte */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+/* zerar as margens e espaçamentos, em todo o documento */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    color: cyan;
+}
+
+body{
+    display: flex;
+    background: url(../imagens/background.jpg) #333 bottom;
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sair{
+    text-align: center;
+}
+
+.nomedados{
+       color: chartreuse;
+    }
+
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+}
+
+#bemvindo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    color: green;
+    font-size: 100px;
+}
